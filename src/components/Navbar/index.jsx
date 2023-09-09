@@ -20,6 +20,7 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import CustomButton from '../Common/CustomButton';
+import Logo from '../Common/Logo';
 
 
 
@@ -107,15 +108,7 @@ const Navbar = () => {
     }
   }));
 
-  const NavbarLogo = styled(Typography)(({ theme }) => ({
-    color:"#0F1B4C",
-    fontWeight:"900",
-    fontSize:"1.2rem",
-    cursor: "pointer",
-    [theme.breakpoints.down("md")]: {
-      display: "none",
-    },
-  }));
+  
 
     return (
         <NavbarContainer>
@@ -131,7 +124,8 @@ const Navbar = () => {
                 >
                   {list("left")}
                 </Drawer>
-                <NavbarLogo >RUBENS-STATE</NavbarLogo> 
+                
+                <Logo/>
               </Box>
 
               <NavbarLinksBox>

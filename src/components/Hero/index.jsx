@@ -50,25 +50,27 @@ const Hero = () => {
                   mt: 10,
                   mb: 4,
                 }}>
-                  Welcome to Rubens-state Agency 
+                  Bienvenido a Rubens-state Agency 
                 </Typography>
                 
                 <Title variant='h1'>
-                  Discover a place where you'll love to live.
+                  Descubra un lugar donde amaras estar,
                 </Title>
                 
                 <Typography
                 variant="body2"
                 sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
                 >
-                Be the first to get the best real estate deals before they hit the
-                mass market! Hot foreclosure deals with one simple search!
+               
+                Se el Primero para Obtener los Mejores Acuerdos antes que entren al Mercado!
+                El poder de un buen negocio en una simple busqueda
+
                 </Typography>
 
                 <CustomButton
                 backgroundColor="#0F1B4C"
                 color="#fff"
-                buttonText="More About Us"
+                buttonText="Nosotros"
                 heroBtn={true}
                 />
                 
