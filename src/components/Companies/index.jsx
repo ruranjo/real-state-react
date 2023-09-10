@@ -28,7 +28,7 @@ const Companies = () => {
     return (
         
         <Box sx={{mt:10}}>
-            <CustomContainer sx={{border:"1px solid red"}}>
+            <CustomContainer>
                 <CustomBox>
                     <Logo visible={true}/>
                     <Typography

@@ -1,6 +1,8 @@
 import './App.css'
 import Companies from './components/Companies'
+import Guide from './components/Guide'
 import Hero from './components/Hero'
+import Properties from './components/Properties'
 
 function App() {
   
@@ -9,6 +11,8 @@ function App() {
     <>
         <Hero/>
         <Companies />
+        <Guide />
+        <Properties />
     </>
   )
 }
