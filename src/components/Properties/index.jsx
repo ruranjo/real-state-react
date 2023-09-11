@@ -23,7 +23,6 @@ const Properties = () => {
 
     return (
         <Box sx={{
-            border:"1px solid red",
             mt: 5,
             backgroundColor: "#F5FAFE",
             py: 10

@@ -1,5 +1,8 @@
+
 import './App.css'
 import Companies from './components/Companies'
+import Details from './components/Details'
+import Footer from './components/Footer'
 import Guide from './components/Guide'
 import Hero from './components/Hero'
 import Properties from './components/Properties'
@@ -13,6 +16,8 @@ function App() {
         <Companies />
         <Guide />
         <Properties />
+        <Details/>
+        <Footer />
     </>
   )
 }
