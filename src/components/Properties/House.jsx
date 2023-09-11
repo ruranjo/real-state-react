@@ -1,9 +1,9 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography } from '@mui/material';
 import {styled} from "@mui/material/styles"
-import React from "react";
-import bedroomsIcon from  "../../assets/media/bedroomsIcon.png";
-import bathroomsIcon from "../../assets/media/bathroomsIcon.png";
-import spaceIcon from "../../assets/media/spaceIcon.png";
+import React from 'react';
+import bedroomsIcon from  '../../assets/media/bedroomsIcon.png';
+import bathroomsIcon from '../../assets/media/bathroomsIcon.png';
+import spaceIcon from '../../assets/media/spaceIcon.png';
 
 const House = ({ img, price, address, bedrooms, bathrooms, space }) => {
   

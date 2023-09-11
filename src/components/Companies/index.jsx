@@ -2,7 +2,7 @@ import { Box, Container, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import React from 'react'
 import Logo from '../Common/Logo';
-import logosImg from "../../assets/media/logos.png";
+import logosImg from '../../assets/media/logos.png';
 
 
 const Companies = () => {

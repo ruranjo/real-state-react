@@ -1,7 +1,7 @@
 import React from 'react'
-import {styled} from "@mui/material/styles"
+import {styled} from '@mui/material/styles'
 import { Box, Typography } from '@mui/material'
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const Guidebox = ({imageIcon, text1, text2 }) => {
     const GuideBox = styled(Box)(({theme})=>({

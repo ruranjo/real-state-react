@@ -1,13 +1,13 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import {styled} from "@mui/material/styles"
+import {styled} from '@mui/material/styles'
 
-import buyIcon from "../../assets/media/buy_icon.png";
-import sellIcon from "../../assets/media/sell_icon.png"; 
-import rentIcon from "../../assets/media/rent_icon.png";
+import buyIcon from '../../assets/media/buy_icon.png';
+import sellIcon from '../../assets/media/sell_icon.png'; 
+import rentIcon from '../../assets/media/rent_icon.png';
 
 
-import CustomButton from "../Common/CustomButton";
+import CustomButton from '../Common/CustomButton';
 import Guidebox from './Guidebox';
 
 

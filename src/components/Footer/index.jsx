@@ -1,11 +1,11 @@
-import { Typography } from "@mui/material";
-import { styled} from "@mui/material/styles";
-import { Box, Container } from "@mui/material";
-import React from "react";
+import { Typography } from '@mui/material';
+import { styled} from '@mui/material/styles';
+import { Box, Container } from '@mui/material';
+import React from 'react';
 
-import fbIcon from "../../assets/media/fbicon.png";
-import twitterIcon from "../../assets/media/twittericon.png";
-import linkedinIcon from "../../assets/media/linkedinicon.png";
+import fbIcon from '../../assets/media/fbicon.png';
+import twitterIcon from '../../assets/media/twittericon.png';
+import linkedinIcon from '../../assets/media/linkedinicon.png';
 
 const Footer = () => {
   const CustomContainer = styled(Container)(({ theme }) => ({
